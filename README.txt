@@ -1,15 +1,4 @@
 Authors: Himani Mehta & Vaishvi Patel
-NetID: hjm89 vmp120
-
-TEST PLAN:
-METHODS TO BE IMPLEMENTED
-interactive mode & batch mode working
-tokenizer - done, still need to handle wildcards
- - edgecases: just space (done), comments (done)
-command parser - done
-wildcards - done
-redirection - done
-execute - done handling child and parent processes
 
 1. Input Handling - check isatty() for interactive/batch mode, read() to ensure are read and processed
 2. Tokenizer() - parse command line into tokens, split and handle comments
